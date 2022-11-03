@@ -27,7 +27,7 @@ public class ParkingMapper {
     }
 
 
-    public Parking toParkingCreateDTO(ParkingCreateDTO dto) {
+    public Parking toParkingCreate(ParkingCreateDTO dto) {
         return MODEL_MAPPER.map(dto, Parking.class);
     }
 }
