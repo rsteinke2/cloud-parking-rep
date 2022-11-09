@@ -12,7 +12,7 @@ import org.springframework.http.MediaType;
 
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-class ParkingControllerTest {
+class ParkingControllerTest extends AbstractContainer {
 
     @LocalServerPort
     private int ramdomPort;
